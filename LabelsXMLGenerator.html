@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Labels Generator</title>
+		<script src="jquery-2.1.4.min.js"></script>
+		<script src="lebelsGenerator.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		
+	</head>
+	<body>
+		<h1>Custome Labels Generator</h1>
+		<label>Prefix Name: <input id="prefixName" type="text" ></label>
+		<label>Categories: <input id="categories" type="text" ></label>
+		<label>Language: <input id="language" type="text" value="en_US"></label>
+		<label>Custom Labels XML: <textArea id="customLabelsLastXml" type="text" ></textArea></label>
+		<br>
+
+		<label>Words: <textArea id="labelsArray" type="text" ></textArea></label>
+
+		<input id="genBtn" type="button" value="Generate" onclick="genOutput()" >
+		<br>
+		<fieldset id="output">
+			<legend>Output:</legend>
+			Tags:<textArea id="tagsOutput"></textArea>
+			Mapping:<textArea id="mappingOutput"></textArea>
+		</fieldset>
+	</body>
+</html>

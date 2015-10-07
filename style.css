@@ -1,0 +1,24 @@
+body {
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+#labelsArray {
+	width:60%;
+	height: 200px;
+}
+#genBtn{
+
+}
+#output {
+	margin:15px;
+	border: 1px green solid;
+}
+#tagsOutput{
+	width:40%;
+	height: 500px;
+}
+#mappingOutput{
+	width:40%;
+	height: 500px;
+}
